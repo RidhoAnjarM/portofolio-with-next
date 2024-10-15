@@ -8,9 +8,17 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        spaceGrotesk: ['Space Grotesk', 'sans-serif'],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        maroon: '#800000',
+        dark: '#020403',
+        green: '#6E8880',
+        primary: '#F3F1EF',
+        secondary: '#2F4D4B'
       },
     },
   },
